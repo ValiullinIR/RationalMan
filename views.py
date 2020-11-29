@@ -5,4 +5,4 @@ from models import User, Admin, Petition, Solution, Expenses, Introduction, Comm
 
 @app.route('/')
 def Index():
-    return render_template('base.html')
+    return "<h1>easy-innovation</h2>"
